@@ -55,4 +55,3 @@ function Start-OSDScripts {
     & "$($MyInvocation.MyCommand.Module.ModuleBase)\Projects\OSDScripts\MainWindow.ps1"
     #=================================================
 }
-Export-ModuleMember -Function Start-OSDScripts
