@@ -5,10 +5,10 @@
 @{
     RootModule              = 'OSDBeta.psm1'
     ModuleVersion           = '23.6.26.1'
-    CompatiblePSEditions    = @('Desktop')
+    CompatiblePSEditions    = 'Desktop'
     GUID                    = '03cd2552-5aa6-422b-ad0d-f304a2b1f281'
     Author                  = 'David Segura'
-    CompanyName             = 'OSD Community'
+    CompanyName             = ''
     Copyright               = '(c) 2023 OSDeploy'
     Description             = 'OSDBeta Edition'
     PowerShellVersion       = '5.1'
@@ -17,7 +17,7 @@
     )
     CmdletsToExport = @()
     VariablesToExport = @()
-    AliasesToExport = '*'
+    AliasesToExport = @()
     PrivateData = @{
         PSData = @{
             Tags            = @('osd','osdeploy','osdcloud')
